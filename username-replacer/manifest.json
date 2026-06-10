@@ -1,14 +1,11 @@
 {
   "name": "Username Replacer",
-  "description": "Replace username with custom text and inject badges for a specific user",
+  "description": "Replaces usernames in the Discord client UI",
   "authors": [
     {
-      "name": "Plugin Developer",
-      "id": "000000000000000000"
+      "name": "abyssal125"
     }
   ],
-  "main": "src/index.ts",
-  "vendetta": {
-    "icon": "ic_person_replace"
-  }
+  "main": "dist/index.js",
+  "version": "1.0.0"
 }
