@@ -1,0 +1,14 @@
+{
+  "name": "Username Replacer",
+  "description": "Replace username with custom text and inject badges for a specific user",
+  "authors": [
+    {
+      "name": "Plugin Developer",
+      "id": "000000000000000000"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "ic_person_replace"
+  }
+}
