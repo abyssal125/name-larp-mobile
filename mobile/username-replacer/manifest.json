@@ -1,0 +1,15 @@
+{
+  "name": "Username Replacer",
+  "description": "Replaces username 'ngsr' with 'emo' and injects custom badges for a specific user",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Plugin Developer",
+      "id": "000000000000000000"
+    }
+  ],
+  "main": "index.tsx",
+  "vendetta": {
+    "icon": "ic_person_replace"
+  }
+}
