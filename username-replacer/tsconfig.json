@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM"],
+    "jsx": "react",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "@vendetta/metro": ["./types/vendetta.d.ts"],
+      "@vendetta/spitroast": ["./types/vendetta.d.ts"]
+    }
+  },
+  "include": ["index.tsx", "types"],
+  "exclude": ["node_modules"]
+}
